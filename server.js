@@ -56,9 +56,6 @@ app.get('/movie', function handleGetMovies(req, res) {
 
 const PORT = 8000
 
-const validTypes = [`Bug`, `Dark`, `Dragon`, `Electric`, `Fairy`, `Fighting`, `Fire`, `Flying`, `Ghost`, `Grass`, `Ground`, `Ice`, `Normal`, `Poison`, `Psychic`, `Rock`, `Steel`, `Water`]
-
-
 app.listen(PORT, () => {
   console.log(`Server listening at http://localhost:${PORT}`)
 })
