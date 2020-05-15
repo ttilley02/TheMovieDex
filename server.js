@@ -19,21 +19,10 @@ app.use(function validateBearerToken(req, res, next) {
     if (!authToken || authToken.split(' ')[1] !== apiToken) {
     return res.status(401).json({ error: 'Unauthorized request' })
     }
-
     // move to the next middleware
     next()
     })
-
-function handleGetTypes(req, res) {
-    res.json(validTypes)
-  }
-  
-app.get('/types', handleGetTypes)
-
-function handleGetMovies(req, res) {
-   res.send('Welcome to the MovieDex')
-}
-    
+ 
 
 app.get('/movie', function handleGetMovies(req, res) {
     let response = MOVIEDEX.movies;
