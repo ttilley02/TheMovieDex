@@ -2,10 +2,10 @@
 
 Server for mini movie database!
 
-## Use ENDPOINT /movie for queries on the following:
-*country
-*genre
-*avg_vote(average vote score)
+## Use ENDPOINT /movie for queries on the following
+* country
+* genre
+* avg_vote(average vote score)
 
 Techonologies used:
 Node.js
