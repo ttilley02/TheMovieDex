@@ -3,7 +3,6 @@
 Server for mini movie database!
 
 ## Use ENDPOINT /movie for queries on the following:
-
 *country
 *genre
 *avg_vote(average vote score)
