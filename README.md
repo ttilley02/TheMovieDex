@@ -9,7 +9,7 @@ genre
 avg_vote(average vote score)
 
 Techonologies used:
-Node.js, Express.js
+Node.js
 
 Heroku Link:
 https://secret-beyond-55201.herokuapp.com/
