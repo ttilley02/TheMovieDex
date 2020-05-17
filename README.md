@@ -1,8 +1,8 @@
-# TheMovieDex
+# The MovieDex
 
 Server for mini movie database!
 
-Use ENDPOINT /movie for queries on the following:
+##Use ENDPOINT /movie for queries on the following:
 
 country
 genre
